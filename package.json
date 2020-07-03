@@ -32,5 +32,8 @@
       "/node_modules/",
       ".ts"
     ]
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

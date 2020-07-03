@@ -42,5 +42,8 @@
     "@block65/dynamodb-auto-marshaller": "^0.7.4-alpha.1",
     "tslib": "^1.9"
   },
-  "gitHead": "ae3d74214023570e8caf30784a6c0d81e8148530"
+  "gitHead": "9379b81d62ec2f4990fea6c30b0514db8e9cce8f",
+  "publishConfig": {
+    "access": "public"
+  }
 }
