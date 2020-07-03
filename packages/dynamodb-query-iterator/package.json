@@ -1,6 +1,6 @@
 {
   "name": "@block65/dynamodb-query-iterator",
-  "version": "0.7.4-alpha.0",
+  "version": "0.7.4-alpha.1",
   "description": "Abstraction for DynamoDB queries and scans that handles pagination and parallel worker coordination",
   "keywords": [
     "aws",
