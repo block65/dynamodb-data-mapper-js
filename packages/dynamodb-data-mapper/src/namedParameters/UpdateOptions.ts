@@ -1,5 +1,5 @@
 import { OnMissingStrategy, StringToAnyObjectMap } from '../constants';
-import { ConditionExpression } from '@aws/dynamodb-expressions';
+import { ConditionExpression } from '@block65/dynamodb-expressions';
 
 export interface UpdateOptions {
     /**

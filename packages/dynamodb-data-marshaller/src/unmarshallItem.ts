@@ -7,7 +7,7 @@ import {
     ZeroArgumentsConstructor,
 } from "./SchemaType";
 import {InvalidSchemaError} from "./InvalidSchemaError";
-import {BinarySet, Marshaller} from "@aws/dynamodb-auto-marshaller";
+import {BinarySet, Marshaller} from "@block65/dynamodb-auto-marshaller";
 import {
     AttributeMap,
     AttributeValue,

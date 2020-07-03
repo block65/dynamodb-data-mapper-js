@@ -5,8 +5,8 @@ import {
     marshallConditionExpression,
     marshallProjectionExpression,
     ZeroArgumentsConstructor,
-} from '@aws/dynamodb-data-marshaller';
-import { ExpressionAttributes } from '@aws/dynamodb-expressions';
+} from '@block65/dynamodb-data-marshaller';
+import { ExpressionAttributes } from '@block65/dynamodb-expressions';
 import { ScanInput } from 'aws-sdk/clients/dynamodb';
 
 /**

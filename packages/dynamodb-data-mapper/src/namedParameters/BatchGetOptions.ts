@@ -1,6 +1,6 @@
 import { GetOptions } from './GetOptions';
 import { ReadConsistencyConfiguration } from './ReadConsistencyConfiguration';
-import { Schema } from "@aws/dynamodb-data-marshaller";
+import { Schema } from "@block65/dynamodb-data-marshaller";
 
 export interface BatchGetOptions extends ReadConsistencyConfiguration {
     /**

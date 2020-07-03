@@ -1,10 +1,10 @@
 import { ReadConsistencyConfiguration } from './ReadConsistencyConfiguration';
 import { StringToAnyObjectMap } from '../constants';
-import { ZeroArgumentsConstructor } from '@aws/dynamodb-data-marshaller';
+import { ZeroArgumentsConstructor } from '@block65/dynamodb-data-marshaller';
 import {
     ConditionExpression,
     ProjectionExpression,
-} from '@aws/dynamodb-expressions';
+} from '@block65/dynamodb-expressions';
 
 export interface BaseScanOptions extends ReadConsistencyConfiguration {
     /**

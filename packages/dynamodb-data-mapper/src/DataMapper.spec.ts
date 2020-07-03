@@ -3,7 +3,7 @@ import {
     DynamoDbSchema,
     DynamoDbTable,
 } from "./protocols";
-import {Schema} from "@aws/dynamodb-data-marshaller";
+import {Schema} from "@block65/dynamodb-data-marshaller";
 import {
     AttributePath,
     between,
@@ -11,7 +11,7 @@ import {
     FunctionExpression,
     inList,
     UpdateExpression,
-} from "@aws/dynamodb-expressions";
+} from "@block65/dynamodb-expressions";
 import {ItemNotFoundException} from "./ItemNotFoundException";
 import {BatchGetOptions, ParallelScanState, GlobalSecondaryIndexOptions} from './index';
 import {
@@ -694,7 +694,7 @@ describe('DataMapper', () => {
 
         const mapper = new DataMapper({
             client: mockDynamoDbClient as any,
-        });    
+        });
 
         class Item {
             get [DynamoDbTable]() { return 'foo' }
@@ -1800,7 +1800,7 @@ describe('DataMapper', () => {
         const describeTablePromiseFunc = jest.fn(() => Promise.resolve({
             Table: {
                 TableStatus: 'ACTIVE',
-                GlobalSecondaryIndexes: [ 
+                GlobalSecondaryIndexes: [
                     {
                         IndexName: 'DescriptionIndex'
                     }

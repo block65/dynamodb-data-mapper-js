@@ -1,7 +1,7 @@
 import { Iterator } from './Iterator';
 import { SequentialScanOptions } from './namedParameters';
 import { ScanPaginator } from './ScanPaginator';
-import { ZeroArgumentsConstructor } from '@aws/dynamodb-data-marshaller';
+import { ZeroArgumentsConstructor } from '@block65/dynamodb-data-marshaller';
 import DynamoDB = require('aws-sdk/clients/dynamodb');
 
 /**

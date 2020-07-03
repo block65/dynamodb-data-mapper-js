@@ -1,5 +1,5 @@
 {
-  "name": "@aws/dynamodb-expressions",
+  "name": "@block65/dynamodb-expressions",
   "version": "0.7.3",
   "description": "Composable expression objects for Amazon DynamoDB",
   "keywords": [
@@ -39,7 +39,7 @@
     "aws-sdk": "^2.7.0"
   },
   "dependencies": {
-    "@aws/dynamodb-auto-marshaller": "^0.7.1",
+    "@block65/dynamodb-auto-marshaller": "^0.7.1",
     "tslib": "^1.9"
   }
 }

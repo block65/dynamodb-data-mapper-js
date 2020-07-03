@@ -1,5 +1,5 @@
 {
-  "name": "@aws/dynamodb-auto-marshaller",
+  "name": "@block65/dynamodb-auto-marshaller",
   "version": "0.7.1",
   "description": "A data marshaller that converts JavaScript types into Amazon DynamoDB AttributeValues",
   "keywords": [

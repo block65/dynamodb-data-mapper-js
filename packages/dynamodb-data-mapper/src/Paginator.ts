@@ -1,10 +1,10 @@
 import { getSchema } from './protocols';
-import { DynamoDbPaginatorInterface } from '@aws/dynamodb-query-iterator';
+import { DynamoDbPaginatorInterface } from '@block65/dynamodb-query-iterator';
 import {
     Schema,
     unmarshallItem,
     ZeroArgumentsConstructor,
-} from '@aws/dynamodb-data-marshaller';
+} from '@block65/dynamodb-data-marshaller';
 import { ConsumedCapacity } from 'aws-sdk/clients/dynamodb';
 
 require('./asyncIteratorSymbolPolyfill');
